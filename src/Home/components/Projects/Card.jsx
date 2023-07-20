@@ -6,17 +6,18 @@ import { Link } from 'react-router-dom';
 
 const Card = () => {
 	return (
-		<div className='w-[375px] shadow-2xl h-max rounded-lg'>
+		<div className='w-58 shadow-2xl h-max rounded-lg'>
 			<img
 				src={Image}
-				alt={Image}
+        alt={Image}
+        className='w-full'
 			/>
 			<div className='flex flex-col items-start justify-center p-6'>
 				<p className=' text-2xl font-bold'>Project Tile goes here</p>
 				<p className='text-gray-500 w-full mt-3'>
 					This is sample project description random things are here in
 					description This is sample project lorem ipsum generator for dummy
-					content
+					content.
 				</p>
 				<p className='text-violet-600 text-xs mt-3'>
 					Tech Stack: HTML, CSS, REACT, TYPESCRIPT

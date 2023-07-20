@@ -4,6 +4,8 @@ import Component from '../components';
 import Header from './components/Header';
 import Stack from './components/Stack';
 import Projects from './components/Projects/Projects';
+import Footer from './components/Footer';
+
 
 const Home = () => {
 	return (
@@ -12,6 +14,7 @@ const Home = () => {
 			<Header />
 			<Stack />
 			<Projects />
+			<Footer />
 		</Component>
 	);
 };

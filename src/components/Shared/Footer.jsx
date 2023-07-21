@@ -1,9 +1,6 @@
 import React from 'react';
-import Github from './../../components/assets/Vector.svg';
-import Twitter from './../../components/assets/twitter.svg';
-import Linkdin from './../../components/assets/linkdin.svg';
 import { Link } from 'react-router-dom';
-import { LINKS } from '../constant/Data';
+import { LINKS, SOCIAL_LINKS } from '../constant/Data';
 import { Class } from '../Home/constant/Data';
 
 const Footer = () => {
@@ -18,26 +15,16 @@ const Footer = () => {
 					<p>+234 816 272 5007</p>
 					<p>abugodwinaj@gmail.com</p>
 					<div className='flex space-x-8'>
-						<Link to=''>
-							<img
-								src={Github}
-								alt={Github}
-							/>
-						</Link>
-
-						<Link to=''>
-							<img
-								src={Twitter}
-								alt={Twitter}
-							/>
-						</Link>
-
-						<Link to=''>
-							<img
-								src={Linkdin}
-								alt={Linkdin}
-							/>
-						</Link>
+						{SOCIAL_LINKS.map((link, index) => (
+							<Link
+								to={link.to}
+								key={index}>
+								<img
+									src={link.icon}
+									alt='Github alt'
+								/>
+							</Link>
+						))}
 					</div>
 				</div>
 			</div>

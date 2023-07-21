@@ -1,3 +1,7 @@
+import Github from './../assets/Vector.svg';
+import Twitter from './../assets/twitter.svg';
+import Linkdin from './../assets/linkdin.svg';
+
 export const LINKS = [
 	{ text: 'Home', to: '/' },
 	{ text: 'About', to: '/AboutMe' },
@@ -5,6 +9,12 @@ export const LINKS = [
 	{ text: 'Projects', to: '/Projects' },
 	{ text: 'Contact', to: '/Contact' },
 ];
+
+export const SOCIAL_LINKS = [
+	{ icon: Github, to: '#' },
+	{ icon: Twitter, to: '#' },
+	{icon: Linkdin, to: '#'}
+]
 
 export const Class = {
 	li: 'hover:text-violet-700 duration-150 hover:scale-105 hover:text-lg',

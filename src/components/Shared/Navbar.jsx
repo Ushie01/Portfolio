@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Linkdin from './../assets/linkdin.svg';
-import Github from './../assets/Vector.svg';
-import Twitter from './../assets/twitter.svg';
-import { Class, LINKS } from '../constant/Data';
+import { Class, LINKS, SOCIAL_LINKS } from '../constant/Data';
 
 const Navbar = () => {
 	return (
@@ -24,26 +21,14 @@ const Navbar = () => {
 				))}
 
 				<div className='flex space-x-8'>
-					<Link to=''>
-						<img
-							src={Github}
-							alt={Github}
-						/>
-					</Link>
-
-					<Link to=''>
-						<img
-							src={Twitter}
-							alt={Twitter}
-						/>
-					</Link>
-
-					<Link to=''>
-						<img
-							src={Linkdin}
-							alt={Linkdin}
-						/>
-					</Link>
+					{SOCIAL_LINKS.map((link, index) => (
+						<Link to={link.to} key={index}>
+							<img
+								src={link.icon}
+								alt='Github alt'
+							/>
+						</Link>
+					))}
 				</div>
 			</nav>
 		</div>

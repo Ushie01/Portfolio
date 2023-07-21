@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/index';
 import About from './components/About/index';
 import Stack from './components/Stack';
+import Projects from './components/Projects';
+
 
 function App() {
 	return (
@@ -19,6 +21,10 @@ function App() {
 				<Route
 					path='MyStack'
 					element={<Stack />}
+				/>
+				<Route
+					path='Projects'
+					element={<Projects />}
 				/>
 			</Routes>
 		</BrowserRouter>

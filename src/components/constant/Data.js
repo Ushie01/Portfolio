@@ -2,8 +2,8 @@ export const LINKS = [
 	{ text: 'Home', to: '/' },
 	{ text: 'About', to: '/AboutMe' },
 	{ text: 'Tech Stack', to: '/MyStack' },
-	{ text: 'Projects', to: '#' },
-	{ text: 'Contact', to: '#' },
+	{ text: 'Projects', to: '/Projects' },
+	{ text: 'Contact', to: '/Contact' },
 ];
 
 export const Class = {

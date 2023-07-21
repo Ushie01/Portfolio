@@ -9,8 +9,8 @@ const Card = () => {
 		<div className='w-58 shadow-2xl h-max rounded-lg'>
 			<img
 				src={Image}
-        alt={Image}
-        className='w-full'
+				alt={Image}
+				className='w-full'
 			/>
 			<div className='flex flex-col items-start justify-center p-6'>
 				<p className=' text-2xl font-bold'>Project Tile goes here</p>

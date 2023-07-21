@@ -1,5 +1,5 @@
 import React from 'react';
-import Ushie from '../assets/Godwin.jpg'
+import Ushie from './../assets/Godwin.jpg';
 
 const Header = () => {
 	return (

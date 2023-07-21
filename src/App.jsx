@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Home/index';
-import About from './About/index';
+import Home from './components/Home/index';
+import About from './components/About/index';
+import Stack from './components/Stack';
 
 function App() {
 	return (
@@ -14,6 +15,10 @@ function App() {
 				<Route
 					path='AboutMe'
 					element={<About />}
+				/>
+				<Route
+					path='MyStack'
+					element={<Stack />}
 				/>
 			</Routes>
 		</BrowserRouter>

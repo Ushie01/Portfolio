@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from '../Title';
+import Title from '../../Title';
 import Card from './Card';
 import { PROJECTS_DATA } from './constant/data';
 
@@ -12,7 +12,9 @@ const Projects = () => {
 			/>
 			<div className='grid grid-cols-3 mt-24 gap-10'>
 				{PROJECTS_DATA.map((value, index) => (
-					<div key={index} className=''>
+					<div
+						key={index}
+						className=''>
 						<Card />
 					</div>
 				))}

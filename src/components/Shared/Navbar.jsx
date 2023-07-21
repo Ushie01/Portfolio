@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Linkdin from './assets/linkdin.svg';
-import Github from './assets/Vector.svg';
-import Twitter from './assets/twitter.svg';
-import { Class, LINKS } from '../Data';
+import Linkdin from './../assets/linkdin.svg';
+import Github from './../assets/Vector.svg';
+import Twitter from './../assets/twitter.svg';
+import { Class, LINKS } from '../constant/Data';
 
 const Navbar = () => {
 	return (

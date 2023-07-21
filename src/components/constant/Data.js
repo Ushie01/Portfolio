@@ -1,7 +1,7 @@
 export const LINKS = [
-	{ text: 'Home', to: '#' },
-	{ text: 'About', to: '#' },
-	{ text: 'Tech Stack', to: '#' },
+	{ text: 'Home', to: '/' },
+	{ text: 'About', to: '/AboutMe' },
+	{ text: 'Tech Stack', to: '/MyStack' },
 	{ text: 'Projects', to: '#' },
 	{ text: 'Contact', to: '#' },
 ];

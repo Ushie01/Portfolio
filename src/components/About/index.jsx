@@ -1,15 +1,14 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Component from '../components';
+import Navbar from '../Shared/Navbar';
+import Work from './Work';
 import Calender from './Svg/calender.svg';
-import Location from './Svg/location.svg';
 import Office from './Svg/office.svg';
-
+import Container from '../container';
 
 
 const About = () => {
 	return (
-		<Component>
+		<Container>
 			<Navbar />
 			<div className='flex flex-col items-start justify-start mt-16 w-4/6'>
 				<p className='text-3xl text-violet-900 font-extrabold'>About Me</p>
@@ -22,10 +21,16 @@ const About = () => {
 				<p className='text-3xl text-violet-900 font-extrabold mt-10'>
 					Work Experience
 				</p>
+				<Work />
+				<p className='text-3xl text-violet-900 font-extrabold mt-10'>
+					Education
+				</p>
 				<div className='mt-5 w-full'>
 					<div className='flex flex-col items-start justify-between w-full mt-5'>
 						<div className='flex flex-row items-center justify-between w-full'>
-							<p className='text-gray-500 text-2xl'>Junior Web Developer</p>
+							<p className='text-gray-500 text-2xl'>
+								Bachelor in Electrical and Electronics Engineeringr
+							</p>
 							<div className='bg-green-200 px-5 py-1 rounded-full'>
 								<p className='text-green-800 text-xs'>Full Time</p>
 							</div>
@@ -37,14 +42,7 @@ const About = () => {
 										src={Office}
 										alt='Office alt'
 									/>
-									<p>Dr. Rajkumar’s Learning App</p>
-								</div>
-								<div className='flex space-x-3'>
-									<img
-										src={Location}
-										alt='Location alt'
-									/>
-									<p>Bengaluru</p>
+									<p>Cross River University of Science and Technology</p>
 								</div>
 							</div>
 							<div className='flex space-x-3'>
@@ -56,10 +54,10 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-					<hr className='mt-5'/>
+					<hr className='mt-5' />
 				</div>
 			</div>
-		</Component>
+		</Container>
 	);
 };
 

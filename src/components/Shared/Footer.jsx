@@ -1,11 +1,10 @@
 import React from 'react';
 import Github from './../../components/assets/Vector.svg';
 import Twitter from './../../components/assets/twitter.svg';
-import Linkdin from './../../components/assets/linkdin.svg'
+import Linkdin from './../../components/assets/linkdin.svg';
 import { Link } from 'react-router-dom';
-import { LINKS } from '../../Data';
-import { Class } from '../constant/Data';
-
+import { LINKS } from '../constant/Data';
+import { Class } from '../Home/constant/Data';
 
 const Footer = () => {
 	return (
@@ -42,7 +41,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<hr  className='border'/>
+			<hr className='border' />
 			<div className='flex flex-row items-center justify-between'>
 				<nav className={Class.nav}>
 					{LINKS.map((link, index) => (

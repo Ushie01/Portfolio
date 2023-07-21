@@ -5,11 +5,13 @@ import { Class, LINKS, SOCIAL_LINKS } from '../constant/Data';
 const Navbar = () => {
 	return (
 		<div className='flex flex-row items-center justify-between h-20 w-full '>
-			<div className='flex flex-col items-center'>
-				<p
-					className={`font-extrabold text-extrabold text-3xl ${Class.p}`}>{`{FD}`}</p>
-				<p className={`text-semibold font-bold ${Class.p}`}>Front Dev</p>
-			</div>
+			<Link to='/'>
+				<div className='flex flex-col items-center'>
+					<p
+						className={`font-extrabold text-extrabold text-3xl ${Class.p}`}>{`{FD}`}</p>
+					<p className={`text-semibold font-bold ${Class.p}`}>Front Dev</p>
+				</div>
+			</Link>
 			<nav className={Class.nav}>
 				{LINKS.map((link, index) => (
 					<Link
@@ -22,7 +24,9 @@ const Navbar = () => {
 
 				<div className='flex space-x-8'>
 					{SOCIAL_LINKS.map((link, index) => (
-						<Link to={link.to} key={index}>
+						<Link
+							to={link.to}
+							key={index}>
 							<img
 								src={link.icon}
 								alt='Github alt'

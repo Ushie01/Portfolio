@@ -9,7 +9,7 @@ const ProjectsList = () => {
 				<div
 					key={index}
 					className=''>
-					<Card />
+					<Card {...value} />
 				</div>
 			))}
 		</div>

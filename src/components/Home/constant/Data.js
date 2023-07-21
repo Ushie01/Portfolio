@@ -13,7 +13,11 @@ import Git from '../assets/git.svg';
 import Github from '../assets/github.svg';
 import VSCode from '../assets/vscode.svg';
 import MySql from '../assets/mysql.svg';
+import Node from '../assets/nodejs.png';
+import Sanity from '../assets/SANITY.svg'
 import Matlab from '../assets/matlab.svg';
+
+
 
 export const STACK_DATA = [
 	Html,
@@ -23,14 +27,16 @@ export const STACK_DATA = [
     ReduxIcon,
     TypeScript,
     BootStrap,
-    TailwindCss,
+	TailwindCss,
+	Node,
 	MongoDB,
 	NextJs,
 	Git,
 	Github,
     VSCode,
     PostMan,
-    MySql,
+	MySql,
+	Sanity,
     Matlab
 ];
 

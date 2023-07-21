@@ -11,10 +11,10 @@ export const LINKS = [
 ];
 
 export const SOCIAL_LINKS = [
-	{ icon: Github, to: '#' },
-	{ icon: Twitter, to: '#' },
-	{icon: Linkdin, to: '#'}
-]
+	{ icon: Github, to: 'https://github.com/Ushie01' },
+	{ icon: Twitter, to: 'https://twitter.com/Aj_Ushie' },
+	{ icon: Linkdin, to: 'https://www.linkedin.com/in/abu-godwin-8b3003189/' },
+];
 
 export const Class = {
 	li: 'hover:text-violet-700 duration-150 hover:scale-105 hover:text-lg',

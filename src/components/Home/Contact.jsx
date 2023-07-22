@@ -10,7 +10,7 @@ const Contact = () => {
 		<Container>
 			<Navbar />
 			<div className='flex flex-col items-center justify-center mt-32'>
-				<p className='text-violet-900 text-3xl font-extrabold'>
+				<p className='text-violet-900 lg:text-3xl text-md font-extrabold'>
 					For any questions please mail me:
 				</p>
               <p className={`${Class.p} text-3xl font-semibold `}>

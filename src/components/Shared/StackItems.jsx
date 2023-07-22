@@ -3,7 +3,7 @@ import { STACK_DATA } from '../Home/constant/Data';
 
 const StackItems = () => {
 	return (
-		<div className='grid grid-cols-6 gap-24 mt-24'>
+		<div className='grid lg:grid-cols-6 grid-cols-3 lg:gap-24 gap-12 mt-24 lg:p-0 p-3'>
 			{STACK_DATA.map((value, index) => (
 				<img
 					src={value}

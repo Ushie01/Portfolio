@@ -4,7 +4,7 @@ import Card from '../Home/component/Projects/Card';
 
 const ProjectsList = () => {
   return (
-		<div className='grid grid-cols-3 mt-24 gap-10'>
+		<div className='grid lg:grid-cols-3 grid-cols-1 mt-24 gap-10'>
 			{PROJECTS_DATA.map((value, index) => (
 				<div
 					key={index}

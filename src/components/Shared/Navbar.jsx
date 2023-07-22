@@ -1,14 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Class, LINKS, SOCIAL_LINKS } from '../constant/Data';
-import useDeviceType from './useDeviceType'
+import useDeviceType from './useDeviceType';
 import Logo from './Logo';
-// import Menu from '../assets/list'
-import Menu from '../../components/assets/list.svg'
+import Menu from '../../components/assets/list.svg';
+
+// Reusable Social Links Component
+const SocialLinks = () => (
+	<div className='flex space-x-8'>
+		{SOCIAL_LINKS.map((link, index) => (
+			<Link
+				to={link.to}
+				key={index}>
+				<img
+					src={link.icon}
+					alt='Github alt'
+				/>
+			</Link>
+		))}
+	</div>
+);
 
 const Navbar = () => {
 	const { isMobile } = useDeviceType();
-	console.log(isMobile);
 
 	if (isMobile) {
 		return (
@@ -21,18 +35,7 @@ const Navbar = () => {
 						className='h-8 w-8'
 					/>
 				</div>
-				<div className='flex items-start justify-end space-x-8'>
-					{SOCIAL_LINKS.map((link, index) => (
-						<Link
-							to={link.to}
-							key={index}>
-							<img
-								src={link.icon}
-								alt='Github alt'
-							/>
-						</Link>
-					))}
-				</div>
+				<SocialLinks />
 				<hr className='border w-full my-2' />
 			</div>
 		);
@@ -41,7 +44,10 @@ const Navbar = () => {
 	return (
 		<div className='flex flex-row items-center justify-between h-20 w-full '>
 			<Logo />
-			<img src='' alt=''/>
+			<img
+				src=''
+				alt=''
+			/>
 			<nav className={Class.nav}>
 				{LINKS.map((link, index) => (
 					<Link
@@ -51,19 +57,7 @@ const Navbar = () => {
 						{link.text}
 					</Link>
 				))}
-
-				<div className='flex space-x-8'>
-					{SOCIAL_LINKS.map((link, index) => (
-						<Link
-							to={link.to}
-							key={index}>
-							<img
-								src={link.icon}
-								alt='Github alt'
-							/>
-						</Link>
-					))}
-				</div>
+				<SocialLinks />
 			</nav>
 		</div>
 	);

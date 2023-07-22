@@ -59,7 +59,7 @@ export const PROJECTS_DATA = [
 	{
 		img: Image4,
 		title: 'Vehicle Registration',
-		text: 'Where car users in Nigeria can easily sit at the comfort of  their home and register and confirm their driver lincense ',
+		text: 'Where car users in Nigeria can easily sit at the comfort of  their home and register and confirm their driver lincense. It only available on desktop view',
 		stack: 'HTML, CSS, REACT, TAILWINCSS, NODEJS, MYSQL, POSTMAN',
 		url: 'https://vehicle-registration-app.vercel.app/',
 		git: 'https://github.com/Ushie01/Vehicle-Registration-App',

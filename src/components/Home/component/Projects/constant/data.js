@@ -53,7 +53,7 @@ export const PROJECTS_DATA = [
 		title: 'Afrivogue',
 		text: 'Afrivogue NIG LTD landing page which give you access to purhase p.o.s and also making you one of their agents when signed in',
 		stack: 'CSS, REACT, TAILWINCSS',
-		url: 'https://vercel.com/ushie01/afripay360-landing-page-with-tailwindcss-and-react-js',
+		url: 'https://afripay360-landing-page-with-tailwindcss-and-react-js.vercel.app',
 		git: 'https://github.com/Ushie01/afripay360-landing-page-with-Tailwindcss-and-React.js',
 	},
 	{

@@ -38,7 +38,7 @@ export const PROJECTS_DATA = [
 		text: 'This is a collaborated project with other developers where I handle the frontend for mobile and desktop view. Still undergoing development. ',
 		stack: 'TAILWINDCSS, NEXTJS, TYPESCRIPT, SANITY',
 		url: 'https://property-link.vercel.app/landing',
-		git: 'https://github.com/Ushie01/Ushie01',
+		git: 'https://github.com/Ushie01/Property-Link/tree/develop/src/client/components/LandingPage',
 	},
 	{
 		img: Image2,

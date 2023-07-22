@@ -11,7 +11,7 @@ const About = () => {
 	return (
 		<Container>
 			<Navbar />
-			<div className='flex flex-col items-start justify-start mt-16 w-4/6'>
+			<div className='flex flex-col items-start justify-start mt-16 lg:w-4/6 w-full'>
 				<p className='text-3xl text-violet-900 font-extrabold'>About Me</p>
 				<p className='mt-8 text-gray-500'>
 					Recent university graduate in electrical and electronics engineering,
@@ -35,17 +35,17 @@ const About = () => {
 				<p className='text-3xl text-violet-900 font-extrabold mt-10'>
 					Education
 				</p>
-				<div className='mt-5 w-full'>
+				<div className='lg:mt-5 mt-0 w-full'>
 					<div className='flex flex-col items-start justify-between w-full mt-5'>
 						<div className='flex flex-row items-center justify-between w-full'>
-							<p className='text-gray-500 text-2xl'>
+							<p className='text-gray-500 lg:text-2xl text-xl'>
 								Bachelor in Electrical and Electronics Engineering
 							</p>
 							<div className='bg-green-200 px-5 py-1 rounded-full'>
 								<p className='text-green-800 text-xs'>Full Time</p>
 							</div>
 						</div>
-						<div className='flex flex-row items-center justify-between text-sm text-gray-400 mt-2 w-full'>
+						<div className='flex lg:flex-row flex-col lg:items-center justify-between lg:space-y-0 space-y-2 items-start text-sm text-gray-400 mt-2 w-full'>
 							<div className='flex flex-row items-start space-x-5'>
 								<div className='flex space-x-3'>
 									<img

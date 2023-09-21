@@ -18,7 +18,7 @@ export const WORK_DATA = [
 		title: 'Client Project',
 		duration: 'Full Time',
 		organization: 'Euphorya Brand',
-		map: 'NIgeria',
+		map: 'Nigeria',
 		date: 'Nov 2022 - Feb 2023',
 	},
 	{
@@ -37,7 +37,7 @@ export const PROJECTS_DATA = [
 		title: 'Property Listing',
 		text: 'This is a collaborated project with other developers where I handle the frontend for mobile and desktop view. Still undergoing development. ',
 		stack: 'TAILWINDCSS, NEXTJS, TYPESCRIPT, SANITY',
-		url: 'https://property-link.vercel.app/landing',
+		url: 'https://properti.expert/',
 		git: 'https://github.com/Ushie01/Property-Link/tree/develop/src/client/components/LandingPage',
 	},
 	{
@@ -51,7 +51,7 @@ export const PROJECTS_DATA = [
 	{
 		img: Image3,
 		title: 'Afrivogue',
-		text: 'Afrivogue NIG LTD landing page which give you access to purhase p.o.s and also making you one of their agents when signed in',
+		text: 'Afrivogue NIG LTD landing page which gives you access to purchase p.o.s and also makes you one of their agents when signed in',
 		stack: 'CSS, REACT, TAILWINCSS',
 		url: 'https://afripay360-landing-page-with-tailwindcss-and-react-js.vercel.app',
 		git: 'https://github.com/Ushie01/afripay360-landing-page-with-Tailwindcss-and-React.js',
@@ -59,7 +59,7 @@ export const PROJECTS_DATA = [
 	{
 		img: Image4,
 		title: 'Vehicle Registration',
-		text: 'Where car users in Nigeria can easily sit at the comfort of  their home and register and confirm their driver lincense. It only available on desktop view',
+		text: 'Where car users in Nigeria can easily sit in the comfort of  their home and register and confirm their driver license. It is only available on desktop view',
 		stack: 'HTML, CSS, REACT, TAILWINCSS, NODEJS, MYSQL, POSTMAN',
 		url: 'https://vehicle-registration-app.vercel.app/',
 		git: 'https://github.com/Ushie01/Vehicle-Registration-App',

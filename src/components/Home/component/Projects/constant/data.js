@@ -64,6 +64,14 @@ export const PROJECTS_DATA = [
 		url: 'https://vehicle-registration-app.vercel.app/',
 		git: 'https://github.com/Ushie01/Vehicle-Registration-App',
 	},
+	{
+		img: Image2,
+		title: 'Flight Booking',
+		text: 'Flight booking web app where user gets access to international or local board flight. The project is currently on hold due to the price of obtaining API for real-time flights. Collaboration is highly welcome in this project',
+		stack: 'TAILWINCSS, TYPESCRIPT NEXTJS, POSTMAN',
+		url: 'https://flight-booking-lyart.vercel.app/',
+		git: 'https://github.com/Ushie01/Flight-Booking',
+	},
 	// {
 	// 	img: Image5,
 	// 	title: 'Ecommerce Backend',

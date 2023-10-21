@@ -9,7 +9,7 @@ const Card = ({img, title, text, stack, url, git}) => {
 			<img
 				src={img}
 				alt={img}
-				className='w-full'
+				className='w-full h-[200px] rounded-t-2xl '
 			/>
 			<div className='flex flex-col items-start justify-center p-6 '>
 				<p className=' text-2xl font-bold'>{title}</p>

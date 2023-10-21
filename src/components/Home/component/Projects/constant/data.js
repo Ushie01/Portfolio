@@ -1,9 +1,9 @@
-import Image1 from '../../../assets/pic1.png';
-import Image2 from '../../../assets/pic2.png';
-import Image3 from '../../../assets/pic3.png';
-import Image4 from '../../../assets/pic4.png';
-// import Image5 from '../../../assets/pic5.png';
-// import Image6 from '../../../assets/pic6.png';
+import Image1 from '../../../assets/vehicle.jpg';
+import Image2 from '../../../assets/app.jpg';
+import Image3 from '../../../assets/property.jpg';
+import Image4 from '../../../assets/afriv.jpg';
+import Image5 from '../../../assets/3.jpg';
+import Image6 from '../../../assets/airlines.jpg';
 
 
 export const WORK_DATA = [
@@ -33,7 +33,15 @@ export const WORK_DATA = [
 
 export const PROJECTS_DATA = [
 	{
-		img: Image1,
+		img: Image2,
+		title: 'Job Search App',
+		text: 'Neither available on play store or apple store but can be view scanning the code with expo app in the url with your mobile.',
+		stack: 'REACT NATIVE',
+		url: 'https://expo.dev/@ushie/nativeapp?serviceType=classic&distribution=expo-go',
+		git: 'https://github.com/Ushie01/Job-Search-App',
+	},
+	{
+		img: Image3,
 		title: 'Property Listing',
 		text: 'This is a collaborated project with other developers where I handle the frontend for mobile and desktop view. Still undergoing development. ',
 		stack: 'TAILWINDCSS, NEXTJS, TYPESCRIPT, SANITY',
@@ -41,7 +49,7 @@ export const PROJECTS_DATA = [
 		git: 'https://github.com/Ushie01/Property-Link/tree/develop/src/client/components/LandingPage',
 	},
 	{
-		img: Image2,
+		img: Image5,
 		title: 'Ecommerce Web App',
 		text: 'Complete web ecommerce shopping site for clothing collections down to payment integrated with flutterwave',
 		stack: 'CSS, REACT, TAILWINDCSS, NODE, MONGODB, POSTMAN',
@@ -49,7 +57,7 @@ export const PROJECTS_DATA = [
 		git: 'https://github.com/Ushie01/E-commerce-Frontend',
 	},
 	{
-		img: Image3,
+		img: Image4,
 		title: 'Afrivogue',
 		text: 'Afrivogue NIG LTD landing page which gives you access to purchase p.o.s and also makes you one of their agents when signed in',
 		stack: 'CSS, REACT, TAILWINCSS',
@@ -57,7 +65,7 @@ export const PROJECTS_DATA = [
 		git: 'https://github.com/Ushie01/afripay360-landing-page-with-Tailwindcss-and-React.js',
 	},
 	{
-		img: Image4,
+		img: Image1,
 		title: 'Vehicle Registration',
 		text: 'Where car users in Nigeria can easily sit in the comfort of  their home and register and confirm their driver license. It is only available on desktop view',
 		stack: 'HTML, CSS, REACT, TAILWINCSS, NODEJS, MYSQL, POSTMAN',
@@ -65,27 +73,11 @@ export const PROJECTS_DATA = [
 		git: 'https://github.com/Ushie01/Vehicle-Registration-App',
 	},
 	{
-		img: Image2,
+		img: Image6,
 		title: 'Flight Booking',
 		text: 'Flight booking web app where user gets access to international or local board flight. The project is currently on hold due to the price of obtaining API for real-time flights. Collaboration is highly welcome in this project, it is only available on mobile view for now',
 		stack: 'TAILWINCSS, TYPESCRIPT NEXTJS, POSTMAN',
 		url: 'https://flight-booking-lyart.vercel.app/',
 		git: 'https://github.com/Ushie01/Flight-Booking',
 	},
-	// {
-	// 	img: Image5,
-	// 	title: 'Ecommerce Backend',
-	// 	text: 'This is sample project description random things are here indescription This is sample project lorem ipsum generator for dummy content.',
-	// 	stack: 'HTML, CSS, REACT, TYPESCRIPT',
-	// 	url: 'https://github.com/Ushie01/Ushie01',
-	// 	git: 'https://github.com/Ushie01/Ushie01',
-	// },
-	// {
-	// 	img: Image6,
-	// 	title: 'Project Tile goes here',
-	// 	text: 'This is sample project description random things are here indescription This is sample project lorem ipsum generator for dummy content.',
-	// 	stack: 'HTML, CSS, REACT, TYPESCRIPT',
-	// 	url: 'https://github.com/Ushie01/Ushie01',
-	// 	git: 'https://github.com/Ushie01/Ushie01',
-	// },
 ];

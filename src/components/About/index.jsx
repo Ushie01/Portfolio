@@ -60,7 +60,7 @@ const About = () => {
 									src={Calender}
 									alt='Calender alt'
 								/>
-								<p>Sep 2021 - Dec 2021</p>
+								<p>Jan 2017 - Dec 2021</p>
 							</div>
 						</div>
 					</div>

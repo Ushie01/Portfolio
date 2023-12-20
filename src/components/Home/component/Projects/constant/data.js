@@ -4,6 +4,8 @@ import Image3 from '../../../assets/property.jpg';
 import Image4 from '../../../assets/afriv.jpg';
 import Image5 from '../../../assets/3.jpg';
 import Image6 from '../../../assets/airlines.jpg';
+import Image7 from '../../../assets/doorbeauty.jpg';
+import Image8 from '../../../assets/SportBet.jpg';
 
 
 export const WORK_DATA = [
@@ -32,6 +34,22 @@ export const WORK_DATA = [
 ];
 
 export const PROJECTS_DATA = [
+	{
+		img: Image8,
+		title: 'Sport Bet',
+		text: 'Sport Bet is a blue print for legitxbet betting site while the actual work is currently undergoing development by the Timest web, built by me.',
+		stack: 'NEXTJS TAILWINDCSS',
+		url: 'https://sport-bet-one.vercel.app/',
+		git: 'https://github.com/Ushie01/SportBet',
+	},
+	{
+		img: Image7,
+		title: 'Door Beauty Ecommerce',
+		text: 'Cosmetic web application ecommerce till under developement available for mobile and desktop view',
+		stack: 'NEXTJS TAILWINDCSS',
+		url: 'https://door-beauty-gules.vercel.app/',
+		git: 'https://github.com/Ushie01/Door-Beauty',
+	},
 	{
 		img: Image2,
 		title: 'Job Search App',
